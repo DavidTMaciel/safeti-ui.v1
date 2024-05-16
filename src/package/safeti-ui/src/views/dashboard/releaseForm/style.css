@@ -1,0 +1,12 @@
+
+
+.back-ground{
+    background-image: url('https://img.freepik.com/fotos-gratis/feche-a-mao-segurando-fones-de-ouvido-de-protecao_23-2148921434.jpg?t=st=1715780768~exp=1715784368~hmac=a97a96afd487283133b38b12e608c9780ec2304d055e38b2ad09bcbd3099b670&w=1380');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border-release-form{
+    border-bottom: 3px solid #FF5B27;
+
+}

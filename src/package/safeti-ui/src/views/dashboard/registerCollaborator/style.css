@@ -1,0 +1,26 @@
+.inputField {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.25rem;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .inputField:focus {
+    outline: none;
+    border-color: #3182ce;
+  }
+  
+  .submitButton {
+    padding: 0.75rem;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background-color: #38a169; /* Cor mais escura ao passar o mouse */
+  }
