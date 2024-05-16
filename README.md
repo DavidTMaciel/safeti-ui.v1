@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SafeTI Frontend
 
-## Getting Started
+Este é o repositório do frontend do SafeTI, uma plataforma desenvolvida para facilitar o gerenciamento da liberação de Equipamentos de Proteção Individual (EPIs) para colaboradores em ambientes de trabalho.
 
-First, run the development server:
+## Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O SafeTI Frontend é responsável por fornecer uma interface intuitiva e amigável para os usuários da plataforma. Ele permite que os administradores cadastrem colaboradores, associando informações individuais, como nome, função, data de admissão e empresa, além de manter uma ficha única para cada colaborador onde são registrados detalhes sobre os EPIs liberados.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Funcionalidades Principais
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Cadastro e edição de colaboradores
+- Registro e gerenciamento de EPIs liberados para cada colaborador
+- Visualização detalhada do histórico de liberação de EPIs
+- Interface de usuário intuitiva e responsiva
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologias Utilizadas
 
-## Learn More
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Next.js**: Framework React para construção de aplicativos web.
+- **Tailwind CSS**: Framework CSS para estilização rápida e eficiente.
+- **TypeScript**: Superset JavaScript que adiciona tipagem estática à linguagem.
+- **ESLint**: Ferramenta de linting para garantir conformidade com padrões de código.
+- **PostCSS e Autoprefixer**: Ferramentas para transformação e estilização de CSS.
+  
+## Como Rodar o Projeto Localmente
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone este repositório:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/seu-usuario/safeti-ui.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Navegue até o diretório do projeto:
 
-## Deploy on Vercel
+   ```bash
+   cd safeti-ui
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Instale as dependências:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse o projeto em seu navegador em [http://localhost:3000](http://localhost:3000).
+
+## Links Relacionados
+
+- **Back-end Repository**: [URL do Repositório Back-end](url-repositorio-back)
+- **Portal da Plataforma SafeTI**: [URL do Portal](https://github.com/DavidTMaciel/safeTi-portal)
+
+---
+
+Este projeto é parte integrante da plataforma SafeTI, desenvolvida com o objetivo de promover a segurança e o bem-estar dos colaboradores em seus ambientes de trabalho. Para mais informações sobre outros componentes do SafeTI, consulte os respectivos repositórios e documentações.
