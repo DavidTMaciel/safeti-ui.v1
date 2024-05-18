@@ -1,7 +1,5 @@
 import Image from 'next/image'
 import logo from '../../../img/safetyPNG.png'
-import bandeira from '../../../img/bandeira.png'
-import { Users } from "@phosphor-icons/react/dist/ssr"
 import './Navbar.css'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'

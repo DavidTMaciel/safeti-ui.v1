@@ -1,15 +1,22 @@
+"use client"
+import React from "react"
+import { useState } from "react"
 import { HeaderDashboard } from "../home/components/headerDashboard"
 import { DasboardNavBar } from "../home/components/navbar"
-import background from '../../../img/fundo.jpg'
 import './style.css'
+import { ReleaseFormModal } from "./components/releaseFormModal"
 
 export function ReleaseFormView() {
+
+    const [collaborator, setCollaborator] = useState(true)
+
+
     return (
         <div className="flex h-screen bg-white overflow-hidden">
             <DasboardNavBar />
             <div className="flex-1 justify-center items-center">
                 <HeaderDashboard />
-                <div className="flex flex-col justify-center w-[80%] h-[80%] ml-[10%] mt-[2%] rounded-lg border border-gray-300 border-release-form">
+                {collaborator ? <div className="flex flex-col justify-center w-[80%] h-[80%] ml-[10%] mt-[2%] rounded-lg border border-gray-300 border-release-form">
                     <div className="bg-gray-100 p-6 flex justify-between items-center rounded-t-lg border-b-4 border-orange-500">
                         <div className="space-y-1">
                             <h3 className="font-bold text-lg">Caio Araujo</h3>
@@ -62,6 +69,9 @@ export function ReleaseFormView() {
                         </table>
                     </div>
                 </div>
+                    : <ReleaseFormModal />}
+
+
 
 
             </div>

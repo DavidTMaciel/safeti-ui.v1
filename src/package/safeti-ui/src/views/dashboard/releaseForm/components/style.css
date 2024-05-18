@@ -1,0 +1,16 @@
+.input-select{
+    width: 60%;
+    height: 15%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.color-text-release{
+    color: #717070;
+    margin-bottom: 2%;
+    font-size: 22px;
+}
+
+.collaborator-modal{
+    background-color: #F5F5F5;
+}

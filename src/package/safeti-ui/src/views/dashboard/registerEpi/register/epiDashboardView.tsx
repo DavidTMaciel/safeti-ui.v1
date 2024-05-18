@@ -26,10 +26,10 @@ export function EpiDashboardView() {
             <DasboardNavBar />
             <div className="flex-1 justify-center items-center">
                 <HeaderDashboard />
-                <div className="flex flex-col justify-center items-center h-screen">
+                <div className="flex flex-col justify-center items-center h-screen back-ground">
                     <div>
-                        <button className={`text-2xl font-bold ${!viewSelect ? 'bg-orange-500' : 'bg-gray-400 text-gray-700'} text-white py-1 px-4 rounded-t-lg`} onClick={handleChangeModalRegister}>Registrar EPI</button>
-                        <button className={`text-2xl font-bold ${viewSelect ? 'bg-orange-500' : 'bg-gray-400  text-gray-700'} text-white py-1 px-4 rounded-t-lg`} onClick={handleChangeModalEpi}>Visualizar</button>
+                        <button className={`text-1xl font-bold ${!viewSelect ? 'bg-orange-500 text-white' : 'bg-gray-100 text-gray-500'}  py-1 px-4 rounded-t-lg`} onClick={handleChangeModalRegister}>Registrar EPI</button>
+                        <button className={`text-1xl font-bold ${viewSelect ? 'bg-orange-500 text-white' : 'bg-gray-100  text-gray-500'}  py-1 px-4 rounded-t-lg`} onClick={handleChangeModalEpi}>Visualizar</button>
                     </div>
                     {viewSelect && <EpiDashboardToView />}
                     {resgisterEpi && <EpiDashboardRegister />}

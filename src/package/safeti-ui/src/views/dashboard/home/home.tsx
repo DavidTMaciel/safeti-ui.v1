@@ -15,7 +15,7 @@ export function DashboardHomeComponent() {
         <div className="flex justify-between items-center bg-white p-4">
           <div className="flex">
             <AlignLeft size={40} />
-            <h2 className="text-black font-bold text-xl px-2 py-2">Analytics</h2>
+            <h2 className="text-gray-600 font-bold text-xl px-2 py-2">Analise</h2>
           </div>
           <div className="flex items-center space-x-4">
             <button className="px-4 py-2 rounded-lg border border-gray-300">Hoje</button>

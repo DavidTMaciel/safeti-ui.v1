@@ -20,7 +20,7 @@ export default function ComponentLogin() {
                         <div className="space-y-2">
                             <label htmlFor="email" className="text-gray-500  dark:text-gray-400">Email</label>
                             <div>
-                                <input id="email" placeholder="m@example.com" required type="email" className="w-full h-13 border border-gray-30 rounded-md"/>
+                                <input id="email" placeholder="m@example.com" required type="email" className="w-full  border border-gray-30 rounded-md h-15"/>
                             </div>
                         </div>
                         <div className="space-y-2">

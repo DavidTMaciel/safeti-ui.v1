@@ -1,9 +1,9 @@
 .inputField {
-    width: 100%;
+    width: 70%;
     padding: 0.75rem;
     margin-bottom: 1rem;
     border: 2px solid #e2e8f0;
-    border-radius: 0.25rem;
+    border-radius: 1rem;
     transition: border-color 0.2s ease-in-out;
   }
   

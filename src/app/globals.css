@@ -69,3 +69,14 @@
 body{
   font-family: 'Inter', sans-serif;
 }
+
+.collaborator-modal{
+  background-color: #F5F5F5;
+}
+
+.back-ground{
+  background-image: url('https://img.freepik.com/free-photo/employees-with-masks-working-warehouse_23-2148923090.jpg?t=st=1715963645~exp=1715967245~hmac=4f6c3c02764e6ab54b62893ac4459b56eadc2fdc9dab9bd214080ba4a4d8366e&w=996');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
